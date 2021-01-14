@@ -1,0 +1,1 @@
+This is a Java only implementation of spreadsheet functions for testing and deployment in a non-javascript environment. This is a bridge to allow use of nu-content_server-gservices Spreadsheet and map it to SpreadsheetApp which is a Global static function used by spreadsheet macros.

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>nu-content_server-google_spreadsheet_impl</artifactId>
+    <groupId>io.github.nithyanandauniversity</groupId>
+    <version>1.0</version>
+    <name>nu-content_server-google_spreadsheet_impl</name>
+    <description>This is a Java only implementation of spreadsheet functions for testing and deployment in a non-javascript environment. This is a bridge to allow use of nu-content_server-gservices Spreadsheet and map it to SpreadsheetApp which is a Global static function used by spreadsheet macros.</description>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>io.github.xyz-jphil.google_appscript</groupId>
+            <artifactId>xyz-jphil-google_appscript-spreadsheet</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.nithyanandauniversity.content_server</groupId>
+            <artifactId>nu-content_server-gservices</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+</project>
